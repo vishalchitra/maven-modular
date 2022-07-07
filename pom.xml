@@ -12,7 +12,14 @@
     <module>module1</module>
     <module>module2</module>
   </modules>
-  
+  <dependencies>
+		<dependency>
+			<groupId>pl.pragmatists</groupId>
+			<artifactId>JUnitParams</artifactId>
+			<version>1.0.6</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
   <build>
     <plugins>
       <plugin>
